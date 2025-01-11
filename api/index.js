@@ -137,7 +137,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const mongoose = require("mongoose");
-const User = require('./models/User');
+const User = require('./models/user');
 const Post = require('./models/Post');
 const bcrypt = require('bcryptjs');
 const app = express();
